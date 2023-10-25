@@ -1,0 +1,125 @@
+* {margin: 0; padding: 0;}
+body {
+  /* font-family: 'Baloo 2', sans-serif; */
+  /* font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-family: 'Comic Neue', cursive;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-family: 'Bellefair', serif;
+  font-family: 'B612', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;   
+}
+/* Navbar */
+.Navbar {
+  width: 25%; height: 100%;    
+  background-color: #f7f7f7;
+  /* background-color: hsla(0, 0%, 98%, 0.5); */  
+  position: absolute;
+  top: 0; left: 0;
+  box-shadow: 10px 5px 5px rgb(176, 174, 174); 
+  text-align: right;     
+}
+.Navbar .context {
+  padding-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;   
+}
+.Navbar h1 {
+  margin: 100px 50px 40px 0;
+  color: #555;
+}
+.Navbar .nav-main {
+  text-decoration: none;
+  color: #555;
+  font-size: 30px;  
+}
+.Navbar .nav-about {
+  text-decoration: none;
+  color: #555;
+  font-size: 30px;     
+}
+.Navbar div {
+  font-size: 30px;  
+}
+.Navbar .nav-work {
+  text-decoration: none;
+  color: #555;
+  font-size: 30px;  
+}
+.Navbar .nav-work0 {
+  text-decoration: none;
+  color: #555;
+  font-size: 20px;  
+  text-align: right; 
+}
+
+/* Main.js */
+.main {
+  width: 75%; height: 100%;
+  position: absolute;
+  top: 0; left: 25%; 
+}
+.main h1 {  
+  padding: 100px;  
+}
+
+/* About.js */
+.about {
+  width: 75%; height: 100%;
+  position: absolute;
+  top: 0; left: 25%;
+}
+.about h1 {  
+  font-size: 50px;
+  margin-bottom: 30px;
+  padding: 160px 0 50px 100px;
+}
+.about .name {
+  font-size: 30px;
+  padding: 0 100px;
+}
+
+/* Work.js */
+.work {
+  width: 75%; height: 100%;
+  position: absolute;
+  top: 0; left: 25%;  
+  background: #333;
+  color: #eee;
+  /* background: #faf9f9;
+  color: #333; */
+}
+.work h1 {
+  position: absolute;
+  top: 15%; left: 21%;  
+  color: #eee;
+}
+.content {
+  width: 620px; height: 305px;
+  position: absolute;
+  top: 27%; left: 20%;
+  margin: 0 auto;
+  /* border: 1px solid #ccc; */
+  padding: 10px;  
+  /* box-shadow: rgba(256, 256, 256, 0.45) 0px 25px 20px -20px; */
+  box-shadow: rgba(245, 245, 245, 0.45) 0px 25px 20px -20px;
+}
+.content .pic {  
+  width: 600px;
+  height: 295px;  
+  margin: 0 auto;
+  background: #fff;  
+  border: 1px solid #aaa; 
+}
+.content .pic img {
+  width: 100%;  
+}
+.content .desc {
+  margin-top: 100px; 
+  padding: 10px;
+  text-align: left;  
+  font-weight: 500;
+  color: #eee;
+}
